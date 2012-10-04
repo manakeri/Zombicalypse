@@ -1,0 +1,89 @@
+
+image1.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+primo
+rotate: false
+xy: 0, 0
+size: 512, 512
+orig: 512, 512
+offset: 0, 0
+index: -1
+logo
+rotate: false
+xy: 0, 512
+size: 512, 128
+orig: 512, 128
+offset: 0, 0
+index: -1
+road7
+rotate: false
+xy: 0, 640
+size: 128, 128
+orig: 128, 128
+offset: 0, 0
+index: -1
+road6
+rotate: false
+xy: 0, 768
+size: 128, 128
+orig: 128, 128
+offset: 0, 0
+index: -1
+road5
+rotate: false
+xy: 0, 896
+size: 128, 128
+orig: 128, 128
+offset: 0, 0
+index: -1
+road4
+rotate: false
+xy: 128, 640
+size: 128, 128
+orig: 128, 128
+offset: 0, 0
+index: -1
+road3
+rotate: false
+xy: 256, 640
+size: 128, 128
+orig: 128, 128
+offset: 0, 0
+index: -1
+road2
+rotate: false
+xy: 384, 640
+size: 128, 128
+orig: 128, 128
+offset: 0, 0
+index: -1
+road1
+rotate: false
+xy: 128, 768
+size: 128, 128
+orig: 128, 128
+offset: 0, 0
+index: -1
+checkboxon
+rotate: false
+xy: 128, 896
+size: 32, 32
+orig: 32, 32
+offset: 0, 0
+index: -1
+checkboxoff
+rotate: false
+xy: 160, 896
+size: 32, 32
+orig: 32, 32
+offset: 0, 0
+index: -1
+menuskin
+rotate: false
+xy: 160, 896
+size: 32, 32
+orig: 32, 32
+offset: 0, 0
+index: -1
