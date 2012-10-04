@@ -4,9 +4,8 @@
 	<classpathentry kind="src" path="gen"/>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
-	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/zombicalypse"/>
 	<classpathentry exported="true" kind="lib" path="/zombicalypse/libs/gdx.jar" sourcepath="/zombicalypse/libs/gdx-sources.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/gdx-backend-android.jar" sourcepath="libs/gdx-backend-android-sources.jar"/>
-	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/model-loaders"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/zombicalypse"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
