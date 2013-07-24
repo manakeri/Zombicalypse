@@ -241,13 +241,13 @@ public class ObjLoader implements StillModelLoader {
 		int numFaces;
 		boolean hasNorms;
 		boolean hasUVs;
-		Material mat;
+		//Material mat;
 
 		Group (String name) {
 			this.name = name;
 			this.faces = new ArrayList<Integer>(200);
 			this.numFaces = 0;
-			this.mat = new Material("");
+			//this.mat = new Material("");
 		}
 	}
 

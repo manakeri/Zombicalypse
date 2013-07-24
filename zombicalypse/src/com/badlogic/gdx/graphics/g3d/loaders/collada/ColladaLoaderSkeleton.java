@@ -64,7 +64,7 @@ public class ColladaLoaderSkeleton  implements SkeletonModelLoader {
 
 		// check for controller
 		Array<Element> colladaSkin = colladaController.getChildrenByName("skin");
-		if (colladaController == null) throw new GdxRuntimeException("no <controller> elements in file");
+		if (colladaSkin == null) throw new GdxRuntimeException("no <skin> elements in file");
 		
 		Array<Skin> skins = new Array<Skin>();
 		

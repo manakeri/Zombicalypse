@@ -25,8 +25,8 @@ import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
 
 public class TGame extends Game {
 	public static final String TAG = "zombicalypse";
-	public static final float VIRTUAL_WIDTH = 800f;
-	public static final float VIRTUAL_HEIGHT = 480f;
+	public static final float VIRTUAL_WIDTH = 480.0f;
+	public static final float VIRTUAL_HEIGHT = 320.0f;
 	public static final boolean DEBUG = false;
 	public static TGame game;
 

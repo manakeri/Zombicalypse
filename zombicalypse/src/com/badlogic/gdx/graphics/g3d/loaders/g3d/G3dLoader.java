@@ -300,7 +300,7 @@ public class G3dLoader {
 						+ numBonesWeights + ", got " + boneWeightChunks.length);
 				float[][] meshBoneWeights = new float[numBonesWeights][];
 				for(int j=0;j<numBonesWeights;j++) {
-					int count = boneWeightChunks[j].readInt();
+					//int count = boneWeightChunks[j].readInt();
 					meshBoneWeights[j] = boneWeightChunks[j].readFloats();
 				}
 
@@ -313,7 +313,7 @@ public class G3dLoader {
 						+ numBoneAssignments + ", got " + boneAssignmentChunks.length);
 				int[][] meshBoneAssignments = new int[numBoneAssignments][];
 				for(int j=0;j<numBoneAssignments;j++) {
-					int count = boneAssignmentChunks[j].readInt();
+					//int count = boneAssignmentChunks[j].readInt();
 					meshBoneAssignments[j] = boneAssignmentChunks[j].readInts();
 				}
 				

@@ -49,7 +49,7 @@ public class GameLoop implements Screen, InputProcessor {
 
 	private Boolean running = true;
 
-	// FPSLogger fps = new FPSLogger();
+	//FPSLogger fps = new FPSLogger();
 	private Zombies zombies;
 	private final float[] x = new float[360];
 	private final float[] z = new float[360];

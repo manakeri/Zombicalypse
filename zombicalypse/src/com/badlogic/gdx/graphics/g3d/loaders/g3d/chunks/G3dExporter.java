@@ -239,7 +239,7 @@ public class G3dExporter {
 
 			// write static components, sort of like a bind pose mesh
 			writer.newChunk(G3dConstants.VERTEX_LIST);
-			int numFloats = mesh.mesh.getNumVertices() * mesh.mesh.getVertexSize() / 4;
+			//int numFloats = mesh.mesh.getNumVertices() * mesh.mesh.getVertexSize() / 4;
 			writer.writeInt(mesh.mesh.getNumVertices());
 			writer.writeFloats(mesh.vertices);
 			writer.endChunk();

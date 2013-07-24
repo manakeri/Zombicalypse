@@ -35,7 +35,6 @@ import com.badlogic.gdx.graphics.VertexAttributes.Usage;
 import com.badlogic.gdx.graphics.g3d.loaders.ogre.mesh.BaseGeometry;
 import com.badlogic.gdx.graphics.g3d.loaders.ogre.mesh.ColourDiffuse;
 import com.badlogic.gdx.graphics.g3d.loaders.ogre.mesh.Face;
-import com.badlogic.gdx.graphics.g3d.loaders.ogre.mesh.Geometry;
 import com.badlogic.gdx.graphics.g3d.loaders.ogre.mesh.Mesh;
 import com.badlogic.gdx.graphics.g3d.loaders.ogre.mesh.Submesh;
 import com.badlogic.gdx.graphics.g3d.loaders.ogre.mesh.Texcoord;

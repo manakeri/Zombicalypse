@@ -139,7 +139,7 @@ public class MD2Loader implements KeyframedModelLoader {
 		int idxV = 0;
 		int idxT = 0;
 		for (int i = 0; i < header.numVertices; i++) {
-			VertexIndices vIdx = vertCombos.get(i);
+			//VertexIndices vIdx = vertCombos.get(i);
 
 			blendedVertices[idx++] = frame.vertices[idxV++];
 			blendedVertices[idx++] = frame.vertices[idxV++];
@@ -188,7 +188,7 @@ public class MD2Loader implements KeyframedModelLoader {
 		}
 
 		KeyframedAnimation animation = new KeyframedAnimation("all", frameDuration, new Keyframe[frames.length]);
-		float timeStamp = 0;
+		//float timeStamp = 0;
 		for (int frameNum = 0; frameNum < frames.length; frameNum++) {
 			frame = frames[frameNum];
 			float[] vertices = new float[header.numVertices * 6];
@@ -220,6 +220,7 @@ public class MD2Loader implements KeyframedModelLoader {
 		return model;
 	}
 
+	@SuppressWarnings("unused")
 	private float[] buildTexCoords (MD2Header header, MD2Triangle[] triangles, float[] texCoords) {
 		float[] uvs = new float[header.numVertices * 2];
 
@@ -236,6 +237,7 @@ public class MD2Loader implements KeyframedModelLoader {
 		return uvs;
 	}
 
+	@SuppressWarnings("unused")
 	private short[] buildIndices (MD2Triangle[] triangles) {
 		short[] indices = new short[triangles.length * 3];
 

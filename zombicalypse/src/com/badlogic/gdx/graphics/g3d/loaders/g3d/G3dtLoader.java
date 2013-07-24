@@ -168,7 +168,7 @@ public class G3dtLoader {
 		}
 		int animatedComponents = hasNormals ? 6 : 3;
 
-		VertexAttribute[] vertexAttributes = createVertexAttributes(hasNormals, uvSets.size);
+		//VertexAttribute[] vertexAttributes = createVertexAttributes(hasNormals, uvSets.size);
 
 		int numAnimations = readInt(in);
 		ObjectMap<String, KeyframedAnimation> animations = new ObjectMap<String, KeyframedAnimation>(numAnimations);
@@ -179,7 +179,7 @@ public class G3dtLoader {
 
 			Keyframe[] keyframes = new Keyframe[numKeyframes];
 			float time = 0;
-			FloatArray vertex = new FloatArray(animatedComponents);
+			//FloatArray vertex = new FloatArray(animatedComponents);
 			for (int frame = 0; frame < numKeyframes; frame++) {
 				float[] vertices = new float[numVertices * (animatedComponents)];
 				int idx = 0;
